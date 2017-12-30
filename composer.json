@@ -1,0 +1,25 @@
+{
+    "name": "callizaya/nano-base",
+    "description": "Templating and development tools",
+    "authors": [
+        {
+            "name": "David Callizaya",
+            "email": "davidcallizaya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nano\\": "src/Nano"
+        }
+    },
+	"extra": {
+	    "laravel": {
+	        "providers": [
+	            "Nano\\Providers\\ServiceProvider"
+	        ],
+	        "aliases": {
+	        }
+	    }
+	},
+    "require": {}
+}
